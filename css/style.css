@@ -228,6 +228,10 @@ p {
   background-color: #111111;
 }
 
+.navbar-toggle .icon-bar {
+	background: white !important;
+}
+
 .navbar-default .navbar-brand .navbar-toggle .collapsed {
     padding: 4px 6px;
     font-size: 14px;
@@ -255,6 +259,7 @@ p {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
+  background-color: #f92700;
   color: #A1A1A1;
 }
 
@@ -306,6 +311,12 @@ p {
 
 @media only screen and (max-width: 767px) {
 
+	.positionLogo{
+		width: 250px;
+		height: 60px;
+		transform: translate(-4%, -13.8%)!important;
+	}
+
 	.navbar {
 		padding-top: 5px;
 		height: 60px;
@@ -319,7 +330,7 @@ p {
 	.navbar-default .navbar-collapse {
 		text-align: center;
 		border-color: transparent;
-	 	background-color: #FFFFFF;
+	 	background-color: #292327;
 	}
 
   .navbar-default .navbar-collapse {
@@ -328,7 +339,7 @@ p {
   }
 
   .navbar-default .navbar-nav > li> a {
-    color: #222222;
+    color: #fff;
 		margin-top: 10px;
   }
 
@@ -348,6 +359,100 @@ p {
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #111111;
   }
+
+
+  .pitch {
+	padding: 100px 0 100px 0;
+	background: #292327;
+}
+
+.pitch-intro {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 0 100px 0;
+}
+
+.pitch-intro h1 {
+	font-size: 26px !important;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 1.2;
+	color: #FFF;
+	margin: 0 0 30px 0;
+}
+
+
+.pitch-intro p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px !important;
+	line-height: 1.5;
+	color: #A1A1A1;
+	text-align: center;
+	letter-spacing: 0;
+}
+
+.pitch-icon {
+	margin: 0 0 10px 0;
+	background: rgb(249,39,0);
+	width: 40px !important;
+	height: 40px !important;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.md4-mobile{
+	width: 60px;
+	height: 100px;
+}
+
+.um{
+	transform: translate(14%, -30%);
+}
+
+.dois{
+	transform: translate(230%, -130%);
+}
+
+.tres{
+	transform: translate(451%, -230%);
+}
+
+
+.tres h1{
+    transform: translate(-70%, -30%);
+}
+.pitch-icon i {
+	font-size: 28px !important;
+	color: #FFFFFF;
+	position: absolute;
+	left: 10px !important;
+	right: 0;
+	top: 8px !important;
+}
+
+.pitch-content {
+	padding: 10px 0 50px 0;
+}
+
+.pitch-content h1 {
+	font-size: 14px !important;
+	font-weight: 600;
+	line-height: 1.2;
+	letter-spacing: 0;
+	color: #FFF;
+	margin: 0 0 10px 0;
+	text-transform:uppercase;
+}
+
+.pitch-content p {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #A1A1A1;
+	letter-spacing: 0;
+	display: none !important;
+}
+
 }
 
 @media only screen and (min-width: 240px) {
@@ -357,7 +462,6 @@ p {
 	font-size: 14px;
 	padding-top: 5px;
 	height: 60px;
-	background-color: rgba(249,39,0, 1);
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
@@ -906,7 +1010,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 }
 
 .app .hero-content {
-	padding: 100px 0 100px 0;
+	padding: 300px 0 100px 0;
 }
 
 .app img {
@@ -915,7 +1019,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 
 .app-info h1 {
-  font-size: 34px;
+  font-size: 24px;
   font-weight: 600;
   color: #404040;
   margin-top: 30px !important;
@@ -923,7 +1027,7 @@ input[type="text"]::-webkit-input-placeholder, textarea::-webkit-input-placehold
 
 .app-info h4 {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   color:  #3C4B5D;
 	line-height: 1.4;
@@ -2287,7 +2391,7 @@ padding: 70px 10px 50px 350px;
 
 
 .positionLogo{
-	transform: translate(-20%, -11.8%);
+	transform: translate(-15%%, -11.8%);
 }
 
 .telEndereco{
