@@ -430,7 +430,7 @@ p {
 	font-size: 28px !important;
 	color: #FFFFFF;
 	position: absolute;
-	left: 10px !important;
+	left: 1px !important;
 	right: 0;
 	top: 8px !important;
 }
@@ -455,7 +455,7 @@ p {
 	line-height: 1.5;
 	color: #A1A1A1;
 	letter-spacing: 0;
-	display: none !important;
+	/*display: none !important;*/
 }
 
 
@@ -2548,3 +2548,4 @@ padding: 70px 10px 50px 350px;
 .card2Mobile{
 	display: none;
 }
+
