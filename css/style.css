@@ -316,10 +316,17 @@ p {
 	height: 320px;
 }
 
+.titulo{
+  width:240px !important;
+}
+
+.paragrafo{
+  transform: translate(0%, -40%) !important;
+}
 	.positionLogo{
-		width: 250px;
-		height: 60px;
-		transform: translate(-4%, -13.8%)!important;
+		width: 300px;
+		height: 100px;
+		transform: translate(-1%, -120%)!important;
 	}
 
 	.navbar {
@@ -599,6 +606,7 @@ p {
 	font-size: 14px;
 	padding-top: 5px;
 	height: 60px;
+  background-color: rgba(249, 39, 0, 1);
 	-webkit-transition: all 0.6s;
 	-moz-transition: all 0.6s;
 	-o-transition: all 0.6s;
@@ -2442,6 +2450,11 @@ padding: 70px 10px 50px 350px;
 		text-align: left;
 	}
 
+
+.titulo{
+  width: 80px !important;
+}
+
 }
 
 
@@ -2529,6 +2542,12 @@ padding: 70px 10px 50px 350px;
 
 .positionLogo{
 	transform: translate(-15%%, -11.8%);
+}
+
+.titulo{
+  color: #fff;
+  width: 240px;
+  font-weight: bold;
 }
 
 .telEndereco{
