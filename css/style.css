@@ -321,13 +321,17 @@ p {
 }
 
 .paragrafo{
-  transform: translate(0%, -40%) !important;
+  transform: translate(0%, -160%) !important;
 }
 	.positionLogo{
 		width: 300px;
 		height: 100px;
-		transform: translate(-1%, -120%)!important;
+		transform: translate(-1%, -180%)!important;
 	}
+
+  .btn-lets-go{
+    transform:translate(0%, -260%) !important;
+  }
 
 	.navbar {
 		padding-top: 5px;
@@ -342,7 +346,7 @@ p {
 	.navbar-default .navbar-collapse {
 		text-align: center;
 		border-color: transparent;
-	 	background-color: #292327;
+	 	background-color: #a00000;
 	}
 
   .navbar-default .navbar-collapse {
@@ -2457,6 +2461,32 @@ padding: 70px 10px 50px 350px;
 
 }
 
+@media only screen and (max-width: 330px) {
+
+.titulo{
+  width: 200px !important;
+}
+
+}
+
+@media screen and (max-height: 400px){
+
+.paragrafo{
+  transform: translate(0%, -286%) !important;
+  font-size: 30px !important;
+}
+  .positionLogo{
+    width: 300px;
+    height: 100px;
+    transform: translate(-1%, -240%)!important;
+  }
+
+  .btn-lets-go{
+    transform:translate(0%, -530%) !important;
+    font-size: 10px !important;
+  }
+
+}
 
 @media screen and (min-width: 400px) and (max-width: 600px) {
 
@@ -2542,6 +2572,10 @@ padding: 70px 10px 50px 350px;
 
 .positionLogo{
 	transform: translate(-15%%, -11.8%);
+}
+
+.btn-lets-go{
+  transform: translate(0%, -30%);
 }
 
 .titulo{
